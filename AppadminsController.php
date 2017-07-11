@@ -32,6 +32,12 @@ class AppadminsController extends AppController {
         }
     }
 
+    public function NewWork() {
+        $this->paginate = ['limit' => ADMIN_PAGE_LIMIT, 'order' => ['id' => 'DESC'], 'conditions' => []];
+        $makes = $this->paginate($this->Makes);
+        $this->set(compact('makes'));
+    }
+    
     public function auditReport() {
         $this->paginate = ['limit' => ADMIN_PAGE_LIMIT, 'order' => ['id' => 'DESC'], 'conditions' => []];
         $makes = $this->paginate($this->Makes);
