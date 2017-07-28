@@ -28,9 +28,6 @@ include ('includes/header.php');
         }
     }
 </script>
-<head>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-</head>
 
 <div class="register">
     <form method="post" name="f1" onSubmit="return validate()">
