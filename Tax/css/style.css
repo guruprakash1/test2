@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+
+*{
+padding:0px;
+margin:0px;
+}
+body{
+font:Arial, Helvetica, sans-serif;
+background-color:#f6f6f6;
+margin:15 auto;
+}
+.register{
+background-color:#00CC66;
+width:900px;
+margin:0 auto;
+}
+
+h1{
+margin-left:120px;
+}
+.label-td{
+width:100px;
+}
+.label-td label{
+margin-left:7px;
+}
+input[type="text"]
+{
+margin-left:10px;
+margin-bottom:15px;
+width:220px;
+height:35px;
+padding:10px;
+}
+input[type="password"]
+{
+margin-left:10px;
+margin-bottom:15px;
+width:220px;
+height:35px;
+padding:10px;
+}
+input[type="radio"]
+{
+width:10px;
+margin-left:10px;
+margin-bottom:15px;
+}
+#check{
+margin-left:10px;
+margin-bottom:15px;
+width:220px;
+height:45px;
+padding:10px;
+}
+textarea{
+margin-left:10px;
+margin-bottom:15px;
+width:220px;
+height:50px;
+padding:10px;
+}
+input[type="file"]
+{
+margin-left:10px;
+margin-bottom:15px;
+width:320px;
+height:45px;
+padding:10px;
+}
+.submit{
+float:right;
+margin-bottom:15px;
+width:100px;
+height:45px;
+padding:10px;
+background-color:#425fa3;
+color:white;
+}
+#box
+{
+margin-left:10px;
+
+}
+#pass
+{
+margin-left:10px;
+margin-bottom:15px;
+width:220px;
+height:35px;
+padding:5px;
+}
+.sub{
+float:right;
+margin-bottom:15px;
+width:100px;
+height:45px;
+padding:10px;
+background-color:#425fa3;
+color:white;
+}
+.register{
+background:#CC6699;
+width:500px;
+margin:0 auto;
+}
+.header{
+	height:80px;
+}
+.footer{
+	margin-top:10px;
+	padding:10px;
+	background:#CCCCCC;
+}
+.main-div{
+	border:1px solid #ccc;
+	width:500px;
+margin:0 auto;
+}
+.header{
+	height:80px;
+}
+.wrapper{
+	margin-top:10px;
+}
+.menu{
+	float:right;
+}
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+	padding:5px;
+}
+.login{
+
+color:#0066FF;
+width:90px;
+height:40px;
+
+}
